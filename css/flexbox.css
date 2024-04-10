@@ -10,6 +10,17 @@
 .cabecera__buscar__item{
 display: none;
 }
+/* Seccion superior */
+.superior__seccion__container{
+    display: flex;
+    align-items: center;
+    /* el codigo no rompe hacia abajo */
+    white-space: nowrap;
+    /* coloca scroll */
+    overflow: scroll;
+    /* espaciado entre items */
+    gap: 15px;
+}
 
 /* Rodapie */
 .rodapie__container{
