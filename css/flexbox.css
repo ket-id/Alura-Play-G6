@@ -50,7 +50,10 @@
     /* el codigo no rompe hacia abajo */
     white-space: nowrap;
     /* coloca scroll */
-    overflow: scroll;
+    overflow-y: hidden ;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #007 #ffffff00;
     /* espaciado entre items */
     gap: 15px;
 }
@@ -136,7 +139,9 @@
 
     .menu__container {
         width: 239px;
-        overflow: scroll;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: #007 #ffffff00;
     }
 
     .menu__lista:nth-child(2),
